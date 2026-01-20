@@ -1,4 +1,5 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero-Section/Hero";
 
 export default function App() {
 
@@ -6,6 +7,7 @@ export default function App() {
     <>
       <div>
         <Navbar />
+        <Hero />
       </div>
     </>
   );

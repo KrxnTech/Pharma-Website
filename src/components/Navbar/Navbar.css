@@ -11,7 +11,13 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: white;
+    border-bottom: 1px solid #E5E7EB;
 }
 
 .Logo-Container {
@@ -58,14 +64,15 @@
 }
 
 #HOME {
-    background-color: rgb(93, 173, 157);
+    background: linear-gradient(90deg, #0E8F7A 0%, #1F7AE0 100%);
     padding-inline: 10px;
     padding-block: 5px;
     border-radius: 5px;
+    color: white;
 }
 
 .Nav-Ul li:hover {
-    background-color: rgb(93, 173, 157);
+    background: linear-gradient(90deg, #0E8F7A 0%, #1F7AE0 100%);
     cursor: pointer;
     transition: 0.2s all ease;
     color: white;
@@ -80,18 +87,16 @@
 .Nav-Right button {
     padding: 10px;
     border-radius: 5px;
-    border: none;
-    color: black;
+    font-size: 13px;
+    border: 2px solid green;
     cursor: pointer;
-    background-color: none;
-    transition: 0.2s all ease;
+    background-color: white;
+    transition: 0.2s all ease-in-out;
     font-weight: 200;
-}
-
-.Nav-Right button:hover {
-    background-color: rgb(93, 173, 157);
+    background: linear-gradient(90deg, #0E8F7A 0%, #1F7AE0 100%);
     color: white;
 }
+
 
 .Nav-Right .Theme-Icon {
     font-size: 20px;
