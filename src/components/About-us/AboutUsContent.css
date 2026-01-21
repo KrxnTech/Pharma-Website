@@ -1,0 +1,56 @@
+.about-us-content {
+    height: 500px;
+    width: 90%;
+}
+
+.About-GP {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.About-GP b {
+    background: linear-gradient(90deg, #0E8F7A 0%, #1F7AE0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-content-paragraph {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-family: 'Poppins';
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.about-us-content-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.about-us-content-badges div {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.2s all ease-in-out;
+}
+
+.about-us-content-badges div:hover {
+    background-color: #F2F3F4;
+}
+
+.about-us-content-badges div i {
+    color: green;
+    font-weight: 800;
+    padding-right: 5px;
+}
