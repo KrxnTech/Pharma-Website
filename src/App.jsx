@@ -1,16 +1,22 @@
+// SETUP ROUTES
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero-Section/Hero";
-import AboutUs from "./components/About-us/AboutUs";
+import AboutUsMain from "./components/About-usMain/About-usMain";
+
 
 export default function App() {
 
   return (
     <>
-      <div>
+      <BrowserRouter>
         <Navbar />
-        <Hero />
-        <AboutUs />
-      </div>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/AboutUs" element={<AboutUsMain />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
-}
+} 

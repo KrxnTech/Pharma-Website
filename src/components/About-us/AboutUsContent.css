@@ -9,6 +9,7 @@
     font-weight: 400;
     padding: 40px;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .About-GP b {
@@ -24,6 +25,7 @@
     font-family: 'Poppins';
     line-height: 28px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .about-us-content-badges {
@@ -47,6 +49,7 @@
 
 .about-us-content-badges div:hover {
     background-color: #F2F3F4;
+    cursor: pointer;
 }
 
 .about-us-content-badges div i {
