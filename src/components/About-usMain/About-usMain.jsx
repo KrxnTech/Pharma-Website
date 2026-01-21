@@ -4,9 +4,7 @@ import "./About-usMain.css"
 export default function AboutUsMain() {
     return (
         <div id="about-us-main">
-            <div>
-                <AboutUsMainHeading />
-            </div>
+            <AboutUsMainHeading />
         </div>
     )
 }
