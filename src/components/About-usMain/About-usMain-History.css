@@ -26,7 +26,8 @@
 }
 
 .Our-History {
-    font-family: poppins;
+    /* font-family: poppins;  */
+    font-family: "Quintessential", serif;
     font-weight: 500;
     font-size: 40px;
     background-color: whitesmoke;
@@ -40,13 +41,15 @@
 
 .History-Paragraph {
     padding: 30px;
+    /* background-color: blue; */
+    margin-top: 50px;
 }
 
 .History-Paragraph p {
     /* padding: 30px 0px 0px 0px; */
     font-family: poppins;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
     width: 85%;
     margin: 10px;
     padding: 10px;

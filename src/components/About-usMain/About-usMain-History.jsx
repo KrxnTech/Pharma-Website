@@ -12,9 +12,6 @@ export default function AboutMainHistory() {
                         <p>💠Over the years, Gulkas Pharma expanded its manufacturing capabilities and market presence.
                             <b id="b-2">It supplies products to leading national and multinational companies in India and abroad.</b>
                             Strict GMP compliance and regular audits supported its steady growth and credibility.</p>
-                        <p>💠Today, Gulkas Pharma is a trusted name known for quality, reliability, and timely delivery.
-                            Its products serve pharmaceutical, food, and allied industries across multiple applications.
-                            The company continues to focus on innovation, efficiency, and <b>long-term customer satisfaction</b>.</p>
                     </div>
                 </div>
                 <div className="about-us-main-history-right"></div>
