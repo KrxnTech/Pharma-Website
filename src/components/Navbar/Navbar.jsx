@@ -1,8 +1,18 @@
 // IMPORT NAVLINKS
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { useState } from "react";
 
 export default function Navbar() {
+
+    let [show, setShow] = useState(false)
+
+    let Click3Dot = () => {
+        setShow(!show)
+    }
+
+
+
     return (
         <nav>
             <div className="Nav-Container">
@@ -16,9 +26,9 @@ export default function Navbar() {
                 </div>
 
                 {/* NAV LINKS */}
-                <div className="Nav-Item-Link">
+                <div className={`Nav-Item-Link ${show ? "active" : ""}`}>
                     <ul className="Nav-Ul">
-                        <li id="HOME">Home</li>
+                        <li id="HOME"><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/AboutUs">About</NavLink></li>
                         <li>Products</li>
                         <li>Quality</li>
@@ -31,7 +41,7 @@ export default function Navbar() {
 
                     {/* THREE DOT ICON */}
                     <div className="More-Icon">
-                        <i className="fa-solid fa-ellipsis-vertical"></i>
+                        <i onClick={Click3Dot} className="fa-solid fa-ellipsis-vertical"></i>
                     </div>
 
                     <div>

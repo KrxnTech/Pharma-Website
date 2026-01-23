@@ -3,7 +3,7 @@ export default function CA() {
     return (
         <div className="AC-main-div">
             <div className="Heading-Para-div">
-                <h1>Certifications & Accreditations</h1>
+                <h1>Certifications Accreditations</h1>
                 <p>Our commitment to quality is backed by internationally recognized certifications</p>
             </div>
             <div className="Four-Achivements">
