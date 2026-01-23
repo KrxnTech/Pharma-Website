@@ -14,7 +14,9 @@ export default function AboutMainHistory() {
                             Strict GMP compliance and regular audits supported its steady growth and credibility.</p>
                     </div>
                 </div>
-                <div className="about-us-main-history-right"></div>
+                <div className="about-us-main-history-right">
+                    <img src="src/assets/WhatsApp Image 2026-01-21 at 12.50.37 PM.jpeg" alt="" />
+                </div>
             </div>
         </div>
     )

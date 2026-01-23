@@ -1,4 +1,4 @@
-.about-us-main-history {
+/* .about-us-main-history {
     height: 500px;
     width: 100%;
     display: flex;
@@ -26,11 +26,9 @@
 }
 
 .Our-History {
-    /* font-family: poppins; */
     font-family: "Quintessential", serif;
     font-weight: 500;
     font-size: 40px;
-    /* background-color: whitesmoke; */
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     width: 45%;
@@ -42,12 +40,10 @@
 
 .History-Paragraph {
     padding: 30px;
-    /* background-color: blue; */
     margin-top: 50px;
 }
 
 .History-Paragraph p {
-    /* padding: 30px 0px 0px 0px; */
     font-family: poppins;
     font-weight: 500;
     font-size: 15px;
@@ -63,4 +59,117 @@
 
 .History-Paragraph p:hover {
     background-color: whitesmoke;
+} */
+
+.about-us-main-history {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.about-us-main-history-left {
+    width: 50%;
+}
+
+.about-us-main-history-right {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.about-us-main-history-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(0.8) saturate(2.5);
+}
+
+.Our-History {
+    font-family: "Quintessential", serif;
+    font-weight: 500;
+    font-size: 40px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 45%;
+    padding: 10px 10px 10px 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.History-Paragraph {
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.History-Paragraph p {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 15px;
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.2s all ease-in-out;
+}
+
+#b-2 {
+    color: #0E8F7A;
+}
+
+.History-Paragraph p:hover {
+    background-color: whitesmoke;
+}
+
+@media (max-width: 992px) {
+    .about-us-main-history {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .about-us-main-history-left,
+    .about-us-main-history-right {
+        width: 100%;
+    }
+
+    .about-us-main-history-right {
+        margin-top: 30px;
+        height: 300px;
+    }
+
+    .Our-History {
+        width: 70%;
+        font-size: 34px;
+    }
+
+    .History-Paragraph p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .Our-History {
+        width: 90%;
+        font-size: 26px;
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+
+    .History-Paragraph {
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .History-Paragraph p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .about-us-main-history-right {
+        height: 220px;
+    }
 }
