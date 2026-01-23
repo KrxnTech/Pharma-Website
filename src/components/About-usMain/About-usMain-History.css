@@ -26,16 +26,16 @@
 }
 
 .Our-History {
-    /* font-family: poppins;  */
+    /* font-family: poppins; */
     font-family: "Quintessential", serif;
     font-weight: 500;
     font-size: 40px;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     width: 45%;
     padding: 10px 10px 10px 30px;
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 10px;
 }
 

@@ -1,0 +1,30 @@
+.MVV-div-outer {
+    font-family: "poppins";
+    margin: 50px;
+    padding: 10px;
+}
+
+.MVV-div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.MVV-div-inner {
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.MVV-div .MVV-div-inner p {
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
+.div-i-inner i {
+    color: green;
+}
