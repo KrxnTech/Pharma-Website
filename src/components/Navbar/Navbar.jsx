@@ -34,10 +34,6 @@ export default function Navbar() {
                         <i className="fa-solid fa-ellipsis-vertical"></i>
                     </div>
 
-                    <div className="Theme-Icon">
-                        <i className="fa-regular fa-moon"></i>
-                    </div>
-
                     <div>
                         <button>Get Quote</button>
                     </div>
