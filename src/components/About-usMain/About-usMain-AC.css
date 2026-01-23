@@ -1,0 +1,58 @@
+.AC-main-div {
+    margin: 50px;
+    padding: 50px;
+}
+
+.AC-main-div .Heading-Para-div {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.AC-main-div .Heading-Para-div h1 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 30px;
+    /* color: #333; */
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, #0E8F7A 0%, #1F7AE0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.AC-main-div .Heading-Para-div p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+.Four-Achivements {
+    display: flex;
+    padding: 10px;
+}
+
+.Four-Achivements div {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.Four-Achivements div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Four-Achivements div i {
+    color: green;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.Four-Achivements div p {
+    font-family: "Poppins";
+    font-size: 12px;
+    text-align: center;
+}
