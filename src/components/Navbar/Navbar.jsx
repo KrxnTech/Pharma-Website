@@ -19,9 +19,8 @@ export default function Navbar() {
 
                 {/* LOGO */}
                 <div className="Logo-Container">
-                    <div><i className="fa-solid fa-flask"></i></div>
                     <div className="Logo-Text">
-                        <b>Gulkas</b> <b className="Pharma-Text">Pharma</b>
+                        <b>Gulkas</b> <b className="Pharma-Text">Pharma Pvt Ltd</b>
                     </div>
                 </div>
 
