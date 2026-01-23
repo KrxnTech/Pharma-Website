@@ -15,7 +15,7 @@ export default function AboutMainHistory() {
                     </div>
                 </div>
                 <div className="about-us-main-history-right">
-                    <img src="src/assets/WhatsApp Image 2026-01-21 at 12.50.37 PM.jpeg" alt="" />
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxhWMadf9YjQ13JPc2Gfr0080nXRUmg9QX_Qu9aZFX8Izw0yIVwwu0vu7Yh8iIAO2Z2wn4B6Fmfsbt5mZLLShWhIWQ5mEYr_QuKlKXSGOztO3Co2SXIR3yYYksU6Rn0IKFXLckx=s1360-w1360-h1020-rw" alt="" />
                 </div>
             </div>
         </div>
