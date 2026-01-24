@@ -1,0 +1,18 @@
+.PSHeadingDesc_Div {
+    text-align: center;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.PSHeadingDesc_Div h2 {
+    font-size: 45px;
+}
+
+.PSHeadingDesc_Div h2 b {
+    color: green;
+    font-weight: 600;
+}
+
+.PSHeadingDesc_Div p {
+    padding-bottom: 10px;
+}
