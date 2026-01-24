@@ -1,7 +1,7 @@
 .PSHeadingDesc_Div {
     text-align: center;
     padding: 20px;
-    line-height: 20px;
+    margin-top: 70px;
 }
 
 .PSHeadingDesc_Div h2 {
@@ -15,4 +15,5 @@
 
 .PSHeadingDesc_Div p {
     padding-bottom: 10px;
+    font-size: 14px;
 }

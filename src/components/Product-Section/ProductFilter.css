@@ -1,0 +1,12 @@
+.Filter_Div {
+    height: 400px;
+    width: 350px;
+    margin: 25px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.Filter_Div h5 {
+    font-size: 20px;
+}

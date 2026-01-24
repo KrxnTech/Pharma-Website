@@ -15,7 +15,7 @@ export default function AboutMainHistory() {
                     </div>
                 </div>
                 <div className="about-us-main-history-right">
-                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxhWMadf9YjQ13JPc2Gfr0080nXRUmg9QX_Qu9aZFX8Izw0yIVwwu0vu7Yh8iIAO2Z2wn4B6Fmfsbt5mZLLShWhIWQ5mEYr_QuKlKXSGOztO3Co2SXIR3yYYksU6Rn0IKFXLckx=s1360-w1360-h1020-rw" alt="" />
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwJjs321F388Z_CR0PuvXWHof3bE_9vECQdomh1fPiOLPSdGKKgPYO53jh6B04T0mTUXK7ogJT7yhdBS5NSS6YQwiANjEyXEqBMLGJ3d_jykTjOiWc2ZEtGoc_WFpEiN6n1GB-3-6gIHGwU=s1360-w1360-h1020-rw" alt="" />
                 </div>
             </div>
         </div>

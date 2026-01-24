@@ -29,7 +29,7 @@ export default function Navbar() {
                     <ul className="Nav-Ul">
                         <li id="HOME"><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/AboutUs">About</NavLink></li>
-                        <li>Products</li>
+                        <li><NavLink to="/Products">Products</NavLink></li>
                         <li>Quality</li>
                         <li>Contact</li>
                     </ul>
