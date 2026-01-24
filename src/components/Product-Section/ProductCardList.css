@@ -1,0 +1,64 @@
+* {
+    font-family: "Poppins";
+}
+
+.Product_Card_List {
+    padding: 20px;
+}
+
+.Product_Card_List .Product_Card {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Product_Card_List .Product_Card .Image_div {
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+.Product_Card_List .Product_Card .Image_div img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Product_Details {
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.Product_Details a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+}
+
+.Product_Details h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.Product_Details button {
+    padding: 10px 100px;
+    border: none;
+    color: black;
+    transition: 0.2s all ease-in-out;
+}
+
+.Product_Details button:hover {
+    background-color: green;
+    color: white;
+}
