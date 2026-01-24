@@ -1,4 +1,4 @@
-* {
+/* * {
     font-family: "Poppins";
 }
 
@@ -61,4 +61,97 @@
 .Product_Details button:hover {
     background-color: green;
     color: white;
+} */
+
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.Product_Card_List {
+    padding: 20px;
+    flex: 1 1 280px;
+    max-width: 320px;
+}
+
+.Product_Card {
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    background: #fff;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Image_div {
+    height: 220px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+
+.Image_div img {
+    max-width: 85%;
+    max-height: 85%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.Product_Details {
+    padding: 12px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Product_Details a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    margin: 6px auto;
+}
+
+.Product_Details h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.Product_Details p {
+    font-size: 13px;
+    margin: 4px 0;
+}
+
+.Product_Details button {
+    margin-top: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #eaeaea;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.Product_Details button:hover {
+    background: green;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .Product_Card_List {
+        max-width: 100%;
+    }
 }
