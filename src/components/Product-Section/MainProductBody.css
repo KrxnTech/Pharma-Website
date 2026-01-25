@@ -1,4 +1,5 @@
 .Main_2_Div {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }

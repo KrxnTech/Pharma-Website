@@ -1,62 +1,58 @@
 .Filter_Div {
-    height: 210px;
-    width: 350px;
-    margin: 15px -10px 10px 40px;
+    width: 100%;
+    max-width: 650px;
+    margin: 12px auto;
+    padding: 16px;
     border-radius: 10px;
     border: 1px solid #ccc;
+    background: #fff;
 }
 
 .Filter_Div h5 {
     font-size: 18px;
     text-align: center;
     font-weight: 500;
-    padding: 10px;
+    margin-bottom: 12px;
 }
 
 .Filter_Div h5 i {
     color: green;
 }
 
-input {
-    border: 1px solid black;
-    width: 90%;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-p {
-    font-size: 15px;
-    padding: 10px;
-}
-
-select {
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 10px;
-    width: 90%;
-}
-
-.Filter_Button {
-    padding-top: 10px;
+/* INPUT + BUTTON ROW */
+.Filter_Inputs {
     display: flex;
-    justify-content: center;
+    gap: 10px;
 }
 
-.Filter_Button div button {
-    margin: 10px;
-    padding: 12.5px 50px;
+.Filter_Inputs input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    min-width: 0;
+}
+
+.Filter_Inputs button {
+    padding: 10px 18px;
     border-radius: 10px;
     border: none;
-    font-size: 13px;
-    width: 85%;
-    color: black;
-    transition: 0.2s all ease;
+    cursor: pointer;
+    transition: 0.2s ease;
+    background: #eee;
 }
 
-.Filter_Button div button:hover {
-    cursor: pointer;
+.Filter_Inputs button:hover {
     background-color: green;
     color: white;
+}
+
+@media (max-width: 480px) {
+    .Filter_Inputs {
+        flex-direction: column;
+    }
+
+    .Filter_Inputs button {
+        width: 100%;
+    }
 }

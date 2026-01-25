@@ -1,4 +1,4 @@
-.PSHeadingDesc_Div {
+/* .PSHeadingDesc_Div {
     text-align: center;
     padding: 20px;
     margin-top: 70px;
@@ -16,4 +16,27 @@
 .PSHeadingDesc_Div p {
     padding-bottom: 10px;
     font-size: 14px;
+} */
+
+.PSHeadingDesc_Div {
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.PSHeadingDesc_Div h2 {
+    font-size: clamp(26px, 5vw, 45px);
+    line-height: 1.2;
+}
+
+.PSHeadingDesc_Div h2 b {
+    color: green;
+    font-weight: 600;
+}
+
+.PSHeadingDesc_Div p {
+    font-size: 14px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
