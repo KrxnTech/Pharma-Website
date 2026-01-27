@@ -1,43 +1,4 @@
-// import "./ProductCardList.css";
-// export default function ProductCardList({
-//     img,
-//     name,
-//     ChemicalFormula,
-//     CASNo,
-//     MolecularWeight,
-//     Appearance,
-//     PurityGrade
-// }) {
-//     return (
-//         <div className="Product_Card_List">
-
-//             <div className="Product_Card">
-
-//                 <div className="Image_div">
-
-//                     <img src={img} alt="" />
-
-//                 </div>
-
-//                 <div className="Product_Details">
-
-//                     <h3>{name}</h3>
-//                     <p>Appearance : <b>{Appearance}</b></p>
-//                     <p>Molecular Weight : <b>{MolecularWeight}</b></p>
-//                     <p>Chemical Formula : <b>{ChemicalFormula}</b></p>
-//                     <p>Purity Grade : <b>{PurityGrade}</b></p>
-//                     <p>CasNo : <b>{CASNo}</b></p>
-//                     <p>Purity : <b>99% +</b></p>
-//                     <button>View Details</button>
-
-//                 </div>
-
-//             </div>
-//         </div>
-//     )
-// }
-
-
+import { useNavigate } from "react-router-dom";
 import "./ProductCardList.css";
 
 export default function ProductCardList({
@@ -49,6 +10,7 @@ export default function ProductCardList({
     Appearance,
     PurityGrade
 }) {
+    const navigate = useNavigate() // Help us to Redirect to diff pages
     return (
         <div className="product-card-wrapper">
             <div className="product-card">
@@ -71,7 +33,7 @@ export default function ProductCardList({
                         <p><span>Purity</span>99% +</p>
                     </div>
 
-                    <button className="product-btn">View Details</button>
+                    <button onClick={() => navigate(`/viewProduct/${CASNo}`)} className="product-btn">View Product</button>
                 </div>
 
             </div>
