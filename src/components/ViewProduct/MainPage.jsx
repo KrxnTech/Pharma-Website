@@ -1,8 +1,9 @@
-import ViewProduct from "./ViewProduct"
+import "./MainPage.css"
+import ViewProductData from "./ViewProductData"
 export default function MainPage() {
     return (
-        <div>
-            <ViewProduct />
+        <div className="MainPageContainer">
+            <ViewProductData />
         </div>
     )
 }
