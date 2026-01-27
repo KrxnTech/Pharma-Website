@@ -10,15 +10,8 @@ export default function MainProductBody() {
         <div>
             <PSHeadingDesc />
             <div className="Main_2_Div">
-                <div>
-                    <FilterProduct
-                        value={search}
-                        onChange={setSearch}
-                    />
-                </div>
-                <div>
-                    <ProductList search={search} />
-                </div>
+                <div><FilterProduct value={search} onChange={setSearch} /></div>
+                <div><ProductList search={search} /></div>
             </div>
         </div>
     )

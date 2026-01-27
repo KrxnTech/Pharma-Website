@@ -65,7 +65,7 @@
 
 
 
-* {
+/* * {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
@@ -152,6 +152,105 @@
 
 @media (max-width: 480px) {
     .Product_Card_List {
+        max-width: 100%;
+    }
+} */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.product-card-wrapper {
+    padding: 12px;
+    flex: 1 1 280px;
+    max-width: 320px;
+}
+
+.product-card {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-image {
+    height: 220px;
+    background: linear-gradient(135deg, #f4f6f8, #eef1f4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.product-image img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 10px;
+}
+
+.product-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.product-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #222;
+}
+
+.product-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 6px;
+    margin-bottom: 14px;
+}
+
+.product-info p {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    color: #444;
+}
+
+.product-info span {
+    font-weight: 500;
+    color: #666;
+}
+
+.product-btn {
+    margin-top: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: none;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.product-btn:hover {
+    background: #1e7f43;
+    border-color: #1e7f43;
+}
+
+@media (max-width: 480px) {
+    .product-card-wrapper {
         max-width: 100%;
     }
 }
