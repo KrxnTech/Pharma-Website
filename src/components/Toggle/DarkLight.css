@@ -1,0 +1,21 @@
+body.Light {
+    background-color: white;
+    color: black;
+}
+
+body.Dark {
+    background-color: black;
+    color: white;
+}
+
+body.Dark i {
+    color: white;
+}
+
+body.Light i {
+    color: black;
+}
+
+body {
+    transition: 0.3s ease;
+}
