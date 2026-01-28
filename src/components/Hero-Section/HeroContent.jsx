@@ -1,5 +1,7 @@
 import "./Hero.css"
+import { useNavigate } from "react-router-dom"
 export default function HeroContent() {
+    const navigate = useNavigate()
     return (
         <div>
             <div className="Content-Div">
@@ -19,7 +21,7 @@ export default function HeroContent() {
                     </p>
                 </div>
                 <div className="Button-Div">
-                    <div><button>Views Products &#8594;</button></div>
+                    <div><button onClick={() => navigate("/Products")}>Views Products &#8594;</button></div>
                     <div><button id="Contact-Us">Contact Us</button></div>
                 </div>
 
