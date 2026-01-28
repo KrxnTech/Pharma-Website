@@ -16,7 +16,7 @@ export default function DarkLight() {
             <nav>
                 <div>
                     <p onClick={HandleToggle}>
-                        {Toggle ? <i class="fa-regular fa-sun light"></i> : <i class="fa-regular fa-moon dark"></i>}
+                        {Toggle ? <i class="fa-regular fa-sun Light"></i> : <i class="fa-regular fa-moon Dark"></i>}
                     </p>
                 </div>
             </nav >

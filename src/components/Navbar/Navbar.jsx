@@ -1,6 +1,7 @@
 // IMPORT NAVLINKS
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import DarkLight from "../Toggle/DarkLight";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -42,11 +43,7 @@ export default function Navbar() {
                     <div className="More-Icon">
                         <i onClick={Click3Dot} className="fa-solid fa-ellipsis-vertical"></i>
                     </div>
-
-                    <div>
-                        <button>Get Quote</button>
-                    </div>
-
+                    <DarkLight />
                 </div>
             </div>
         </nav>

@@ -4,18 +4,10 @@ body.Light {
 }
 
 body.Dark {
-    background-color: black;
+    background-color: #333;
     color: white;
 }
 
-body.Dark i {
-    color: white;
-}
-
-body.Light i {
-    color: black;
-}
-
-body {
+* {
     transition: 0.3s ease;
 }
