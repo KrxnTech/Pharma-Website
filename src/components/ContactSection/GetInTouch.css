@@ -1,0 +1,68 @@
+.GetInTouch {
+    position: relative;
+    top: 50px;
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;
+    position: relative;
+    left: 100px;
+    top: -60px;
+}
+
+.GetTitle {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ParaGetInTouch {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    color: #444;
+}
+
+.FourBox {
+    padding: 10px;
+}
+
+.FourBox .DivInner {
+    border: 2px solid whitesmoke;
+    margin: 20px auto;
+    min-height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.FourBox .DivInner .Icon {
+    background-color: #2E8B57;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.GetInTouchInnerInfoTitle {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.RealInfoInnerPara {
+    font-size: 12px;
+    margin: 2px 0;
+    color: #333;
+}
