@@ -17,16 +17,34 @@ export default function SendUsMsg() {
         })
     }
 
-    const HandleSubmitEvent = (e) => {
+    const HandleSubmitEvent = async (e) => {
         e.preventDefault()
-        console.log(FormData)
-        setFormData({
-            FullName: "",
-            PhoneNumber: "",
-            EmailAddress: "",
-            CompanyName: "",
-            Message: "",
-        })
+        // SENDING DATA IN BACKEND ( DATA IS FORM DATA )
+        try {
+            const Responce = await fetch("http://localhost:5000/api/contact/send", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(FormData)
+            })
+
+            const Data = await Responce.json()
+            console.log(Data)
+
+            console.log(FormData)
+            setFormData({
+                FullName: "",
+                PhoneNumber: "",
+                EmailAddress: "",
+                CompanyName: "",
+                Message: "",
+
+            })
+
+        } catch (error) {
+            console.log("Error in Sending Form Data", error)
+        }
     }
     return (
         <div className="FormOuterMain">
