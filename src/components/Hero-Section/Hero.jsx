@@ -2,6 +2,8 @@ import "./Hero.css"
 import HeroContent from "./HeroContent"
 import HeroImage from "./HeroImage"
 import AboutUs from "../About-us/AboutUs"
+import WhyChooseHeading from "../WhyChooseSection/WhyChooseHeading"
+import MainPartnerPage from "../PartnerWithUsPage/Main"
 
 export default function Hero() {
     return (
@@ -11,6 +13,8 @@ export default function Hero() {
                 <HeroImage />
             </div>
             <AboutUs />
+            <WhyChooseHeading />
+            <MainPartnerPage />
         </>
     )
 }

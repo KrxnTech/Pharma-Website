@@ -168,7 +168,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
 }
 
 
@@ -220,6 +220,7 @@
     line-height: 1.2;
     margin-bottom: 15px;
 }
+
 
 #Premium,
 #Pharmaceuticals {
