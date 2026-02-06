@@ -1,0 +1,57 @@
+.SixBoxContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.SixSingleBox {
+    padding: 30px;
+    border: 2px solid #f1f1f1;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.SixSingleBox:hover {
+    background-color: #f8f8f8;
+    transform: translateY(-5px);
+}
+
+.Icons-WhyChoose {
+    color: #0f7d2c;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.SixSingleBox h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .HeadingWhyChooseDiv {
+        padding: 60px 40px;
+    }
+
+    .SixBoxContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .HeadingWhyChooseDiv {
+        padding: 50px 20px;
+        position: relative;
+        top: -90px;
+    }
+
+    .WhyChooseHeading {
+        font-size: 28px;
+    }
+
+    .SixBoxContainer {
+        grid-template-columns: 1fr;
+    }
+}

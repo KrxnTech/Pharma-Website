@@ -1,0 +1,22 @@
+.HeadingWhyChooseDiv {
+    background-color: white;
+    padding: 80px 100px;
+}
+
+.WhyChooseHeading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.BoldName {
+    color: #0f7d2c;
+}
+
+.WhyChoosePara {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 60px;
+}
