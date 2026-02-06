@@ -1,0 +1,36 @@
+.LeftDiv {
+    flex: 1;
+}
+
+.ReadytoPartnerTitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.ReadytoPartnerPara {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.ButtonDivPartner {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ButtonDownload {
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ButtonDownload:hover {
+    background-color: white;
+    color: #1C8A79;
+}

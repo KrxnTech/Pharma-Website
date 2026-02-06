@@ -1,0 +1,27 @@
+.MainDivPartner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+    gap: 80px;
+    background: linear-gradient(90deg, #1C8A79 0%, #1F7FA2 100%);
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .MainDivPartner {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 30px;
+    }
+
+    .RightMainDiv {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .SingleDivFirst,
+    .SingleDiv {
+        width: 100%;
+    }
+}

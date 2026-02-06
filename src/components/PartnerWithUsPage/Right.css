@@ -1,0 +1,33 @@
+    .RightMainDiv {
+        flex: 1;
+        display: flex;
+        gap: 30px;
+    }
+
+
+    .SingleDivFirst,
+    .SingleDiv {
+        flex: 1;
+        padding: 30px;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        color: black;
+    }
+
+
+    .SingleDiv i,
+    .SingleDivFirst i {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #1C8A79;
+    }
+
+    .RightTitle {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .RightTitlePara {
+        font-size: 14px;
+        line-height: 1.5;
+    }
