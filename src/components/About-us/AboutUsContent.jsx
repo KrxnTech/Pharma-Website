@@ -6,8 +6,8 @@ export default function AboutUsContent() {
         WebkitTextFillColor: "transparent"
     }
     return (
-        <div>
-            <h1 className="About-GP">About <b>Gulkas Pharma</b></h1>
+        <div className="AboutHomePage">
+            <h1 className="About-GP">About <b className="BoldName">Gulkas Pharma</b></h1>
             <p className="about-content-paragraph"><b>Gulkas Pharma Pvt Ltd</b> was founded by a group of professionals
                 with more than <b>30 years of experience</b> in the pharmaceutical
                 industry With <b style={style}>advanced manufacturing equipment</b> and a <b >highly
