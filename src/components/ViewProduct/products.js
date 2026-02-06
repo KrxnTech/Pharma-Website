@@ -1,7 +1,7 @@
 const products = [
     {
 
-        img: "https://upload.wikimedia.org/wikipedia/commons/3/36/Sodium_chloride_2.JPG",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 191554.png",
         name: "Sodium Chloride",
         ChemicalFormula: "NaCl",
         CASNo: "7647-14-15",
@@ -12,7 +12,7 @@ const products = [
 
     },
     {
-        img: "https://rahaoil.com/wp-content/uploads/2022/07/1-4.png",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 191902.png",
         name: "Potassium Chloride",
         ChemicalFormula: "KCl",
         CASNo: "7447-40-7",
@@ -22,7 +22,7 @@ const products = [
         id: "2"
     },
     {
-        img: "https://5.imimg.com/data5/YC/HX/TX/SELLER-3581410/magnesium-chloride-hexahydrate-flakes.jpg",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 192001.png",
         name: "Magnesium Chloride (Hexahydrate)",
         ChemicalFormula: "MgCL₂",
         CASNo: "7786-30-3",
@@ -32,7 +32,7 @@ const products = [
         id: "3"
     },
     {
-        img: "https://ases.in/cdn/shop/products/download_5_99fe45b6-9d43-457d-991d-117269ebc0d2.jpg?v=1650609458",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 192140.png",
         name: "Calcium Chloride (Dihydrate)",
         ChemicalFormula: "CaCl₂",
         CASNo: "10043-52-4",
@@ -42,7 +42,7 @@ const products = [
         id: "4"
     },
     {
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS5Bwu673UyVQcVn51f8b6-xrOuxOXnSdJ1Q&s",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 192212.png",
         name: "Calcium Carbonate",
         ChemicalFormula: "CaCO₃",
         CASNo: "471-34-1",
@@ -53,7 +53,7 @@ const products = [
 
     },
     {
-        img: "https://www.bakeshake.co.in/image/cache/catalog/products/bakeshake-citric-acid-550x550.jpg",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 192309.png",
         name: "Citric Acid",
         ChemicalFormula: "C₆H₈O₇",
         CASNo: "77-92-9",
@@ -63,7 +63,7 @@ const products = [
         id: "6"
     },
     {
-        img: "https://www.chemategroup.com/wp-content/uploads/2023/02/Sodium-Bicarbonate-Powder-for-Sale.jpg",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 192810.png",
         name: "Sodium Bicarbonate",
         ChemicalFormula: "NaHCO₃",
         CASNo: "144-55-8",
@@ -73,7 +73,7 @@ const products = [
         id: "7"
     },
     {
-        img: "https://d3awvtnmmsvyot.cloudfront.net/api/file/QUb5608Q7mXJUM08SjP6/convert?fit=max&w=570&cache=true",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 192943.png",
         name: "Sodium Citrate",
         ChemicalFormula: "C₆H₅Na₃O₇",
         CASNo: "6132-04-3",
@@ -83,7 +83,7 @@ const products = [
         id: "8"
     },
     {
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqF2LkB_Aavfb4nuYofGbjU2XhtcR3RmSZlg&s",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 193135.png",
         name: "Citric Acid Monohydrate",
         ChemicalFormula: "C₆H₈O₇·H₂O",
         CASNo: "5949-29-1",
@@ -93,7 +93,7 @@ const products = [
         id: "9"
     },
     {
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR39hkOCbwZQTTjfFjDXneMXNS_tfZDcm2ag&s",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 193208.png",
         name: "Sodium Carbonate",
         ChemicalFormula: "Na₂CO₃",
         CASNo: "144-55-8",
@@ -103,7 +103,7 @@ const products = [
         id: "10"
     },
     {
-        img: "https://5.imimg.com/data5/SELLER/Default/2022/11/WJ/KB/OO/163548754/crystal-sodium-acetate-anhydrous.jpg",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 193231.png",
         name: "Sodium Acetate",
         ChemicalFormula: "C₂H₃NaO₂",
         CASNo: "127-09-3",
@@ -113,7 +113,7 @@ const products = [
         id: "11"
     },
     {
-        img: "https://www.chemkits.eu/156-large_default_2x/maleic-acid-2z-but-2-enedioic-acid-110-16-7.jpg",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 193326.png",
         name: "Maleic Acid",
         ChemicalFormula: "C₄H₄O₄",
         CASNo: "110-16-7",
@@ -123,7 +123,7 @@ const products = [
         id: "12"
     },
     {
-        img: "https://cpimg.tistatic.com/04788647/b/4/EDTA-DISODIUM.jpg",
+        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 193400.png",
         name: "Di Sodium Edetate (EDTA) Salt",
         ChemicalFormula: "C₁₀H₁₄N₂Na₂O₈",
         CASNo: "6381-92-6",
