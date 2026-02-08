@@ -373,3 +373,14 @@
         gap: 15px;
     }
 }
+
+
+#WhatsAap-Div {
+    padding: 5px;
+    margin: 5px;
+}
+
+#WhatsApp-Icon {
+    color: green;
+    font-size: 28px;
+}
