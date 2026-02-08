@@ -5,7 +5,7 @@ export default function LeftPartner() {
 
     let DownLoadcatalogue = () => {
         const Link = document.createElement('a')
-        Link.href = "src/components/PartnerWithUsPage/Gulkas Pharma (MR Hasan).pdf"
+        Link.href = "/PDF/Gulkas Pharma (MR Hasan).pdf"
         Link.download = "ProductCatalogue.pdf"
         Link.click()
     }
