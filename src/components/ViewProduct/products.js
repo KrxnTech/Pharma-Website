@@ -53,7 +53,7 @@ const products = [
 
     },
     {
-        img: "public/images/Screenshot 2026-02-05 192309.png",
+        img: "/images/Screenshot 2026-02-05 192309.png",
         name: "Citric Acid",
         ChemicalFormula: "C₆H₈O₇",
         CASNo: "77-92-9",
@@ -93,7 +93,7 @@ const products = [
         id: "9"
     },
     {
-        img: "/images/Screenshot 2026-02-05 193208.pngg",
+        img: "/images/Screenshot 2026-02-05 193208.png",
         name: "Sodium Carbonate",
         ChemicalFormula: "Na₂CO₃",
         CASNo: "144-55-8",
