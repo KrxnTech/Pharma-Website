@@ -1,7 +1,7 @@
 const products = [
     {
 
-        img: "src/components/ViewProduct/Images/Screenshot 2026-02-05 191554.png",
+        img: "public/images/Screenshot 2026-02-05 191554.png",
         name: "Sodium Chloride",
         ChemicalFormula: "NaCl",
         CASNo: "7647-14-15",
