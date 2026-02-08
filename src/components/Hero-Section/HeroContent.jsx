@@ -4,8 +4,15 @@ import { motion } from "framer-motion";
 
 export default function HeroContent() {
     const navigate = useNavigate()
+
+    // Making WhatsApp Feature ✨
+    const PhoneNumber = "919898527683"
+    const Msg = "Hello Sir I hope you are doing well. I recently came across your company's website and was impressed by your expertise in pharmaceutical ingredients and specialty chemical manufacturing. I would like to connect and discuss potential business opportunities. Looking forward to your response."
+    const WhatsAppURL = `https://wa.me/${PhoneNumber}?text=${encodeURIComponent(Msg)}`
+
     return (
         <div>
+
             <motion.div
                 initial={{ opacity: 0, x: -60 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -17,6 +24,7 @@ export default function HeroContent() {
                 }}
                 className="Content-Div"
             >
+                <div id="WhatsAap-Div"><a href={WhatsAppURL} target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" id="WhatsApp-Icon"></i></a></div>
                 <div className="Trust-Quality-Badge">
                     <p className="Trust-Quality-Text">
                         <i class="fa-solid fa-shield"></i>Trust Quality Since 1982
