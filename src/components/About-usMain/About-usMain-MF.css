@@ -1,0 +1,131 @@
+/* .MainMFDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    top: -50px;
+}
+
+.LeftsideDivData {
+    padding: 20px;
+    width: 50%;
+}
+
+.LeftsideDivData h1 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #0E8F7A 0%, #1F7AE0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.LeftsideDivData p {
+    padding: 10px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #0E8F7A;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+.LeftsideDivData ul {
+    padding: 10px;
+    margin-left: 70px;
+}
+
+.LeftsideDivData ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.3s all ease;
+    width: 470px;
+}
+
+.LeftsideDivData ul li:hover {
+    background-color: green;
+    color: white;
+    width: 470px;
+    cursor: pointer;
+}
+
+.ImageDivGulkasLogo {
+    position: relative;
+    right: 80px;
+} */
+
+.MainMFDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 40px 5%;
+    flex-wrap: wrap;
+    /* important */
+}
+
+.LeftsideDivData {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.LeftsideDivData h1 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #0E8F7A 0%, #1F7AE0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: clamp(28px, 5vw, 50px);
+    /* responsive font */
+}
+
+.LeftsideDivData ul {
+    padding: 0;
+    margin: 20px 0;
+}
+
+.LeftsideDivData ul li {
+    list-style: none;
+    padding: 12px 16px;
+    margin: 10px 0;
+    transition: 0.3s ease;
+    border-radius: 8px;
+}
+
+.LeftsideDivData ul li:hover {
+    background-color: #0E8F7A;
+    color: white;
+    cursor: pointer;
+}
+
+.LeftsideDivData p {
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #0E8F7A;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    line-height: 1.6;
+}
+
+.ImageDivGulkasLogo {
+    flex: 1;
+    min-width: 250px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageDivGulkasLogo img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}

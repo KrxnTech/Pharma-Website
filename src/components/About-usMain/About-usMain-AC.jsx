@@ -1,6 +1,7 @@
 import "./About-usMain-AC.css"
+import AboutusMainMf from "./About-usMain-MF"
 export default function CA() {
-    return (
+    return <>
         <div className="AC-main-div">
             <div className="Heading-Para-div">
                 <h1>Certifications Accreditations</h1>
@@ -29,5 +30,7 @@ export default function CA() {
                 </div>
             </div>
         </div>
-    )
+        <AboutusMainMf />
+
+    </>
 }

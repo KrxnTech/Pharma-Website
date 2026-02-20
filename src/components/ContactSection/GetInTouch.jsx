@@ -17,7 +17,8 @@ export default function GetInTouch() {
                     <div>
                         <p className="GetInTouchInnerInfoTitle">Email</p>
                         <p className="RealInfoInnerPara">Gulkas440@gmail.com</p>
-                        <p className="RealInfoInnerPara">gulkas001@gmail.com</p>
+                        <p className="RealInfoInnerPara">marketing.gulkaspharma@gmail.com</p>
+                        <p className="RealInfoInnerPara">qagulkaspharma@gmail.com</p>
                     </div>
                 </div>
                 <div className="DivInner">
@@ -25,6 +26,7 @@ export default function GetInTouch() {
                     <div>
                         <p className="GetInTouchInnerInfoTitle">Phone</p>
                         <p className="RealInfoInnerPara">+91 98985 27683</p>
+                        <p className="RealInfoInnerPara">+91 90163 73731</p>
                     </div>
                 </div>
                 <div className="DivInner">
@@ -32,7 +34,7 @@ export default function GetInTouch() {
                     <div>
                         <p className="GetInTouchInnerInfoTitle">Business Hours</p>
                         <p className="RealInfoInnerPara">Tuesday - Sunday 9:00 AM - 6:00 PM</p>
-                        <p className="RealInfoInnerPara">Saturday 9:00 AM - 1:00 PM</p>
+                        <p className="RealInfoInnerPara">Moday Closed</p>
                     </div>
                 </div>
             </div>

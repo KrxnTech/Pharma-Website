@@ -1,5 +1,7 @@
 import { useState } from "react"
 import "./SendUsMsg.css"
+import { input } from "framer-motion/client"
+import { Form } from "react-router-dom"
 export default function SendUsMsg() {
     const [FormData, setFormData] = useState({
         FullName: "",
@@ -14,6 +16,17 @@ export default function SendUsMsg() {
             return {
                 ...currValue, [e.target.name]: e.target.value
             }
+        })
+    }
+
+    const ShowSendMsg = (e) => {
+        alert("Msg Send Successfully")
+        setFormData({
+            FullName: "",
+            PhoneNumber: "",
+            EmailAddress: "",
+            CompanyName: "",
+            Message: "",
         })
     }
 
@@ -45,6 +58,7 @@ export default function SendUsMsg() {
         } catch (error) {
             console.log("Error in Sending Form Data", error)
         }
+
     }
     return (
         <div className="FormOuterMain">
@@ -108,7 +122,7 @@ export default function SendUsMsg() {
                         rows="10"
                         placeholder="Tell us about your requirements products inquries or any questions..."></textarea>
                 </div>
-                <button className="SendButtonMsg"><i className="SendButtonIcon fa-regular fa-paper-plane"></i>Send Message</button>
+                <button onClick={ShowSendMsg} className="SendButtonMsg"><i className="SendButtonIcon fa-regular fa-paper-plane"></i>Send Message</button>
             </form>
         </div>
     )

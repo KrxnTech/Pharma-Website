@@ -1,4 +1,4 @@
-.ContactMainDiv {
+/* .ContactMainDiv {
     margin: auto;
     position: relative;
     top: 50px;
@@ -11,4 +11,15 @@
 
 .ContactMainDiv .Para {
     font-size: 14px;
+} */
+
+
+.ContactMainDiv .Heading {
+    font-size: clamp(28px, 5vw, 42px);
+}
+
+.ContactMainDiv .Para {
+    font-size: 14px;
+    max-width: 600px;
+    margin: 10px auto 0;
 }

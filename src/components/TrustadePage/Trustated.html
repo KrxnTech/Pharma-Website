@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusted By | Pharma Company</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f8f9fb;
+            color: #222;
+            overflow-x: none;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 8%;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .navbar h2 {
+            font-size: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            margin-left: 25px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        /* HERO */
+        .hero {
+            padding: 100px 8%;
+            background: linear-gradient(to right, #0d6efd, #1b9aaa);
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            font-size: 18px;
+        }
+
+        /* TRUSTED SECTION */
+        .trusted-section {
+            padding: 120px 8%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+            background: #ffffff;
+        }
+
+        /* LEFT SIDE TEXT */
+        .trusted-text {
+            flex: 1;
+        }
+
+        .trusted-text h2 {
+            font-size: 38px;
+            margin-bottom: 20px;
+            color: #0d6efd;
+        }
+
+        .trusted-text p {
+            margin-bottom: 25px;
+            color: #555;
+            max-width: 500px;
+            line-height: 1.6;
+        }
+
+        .stats span {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        /* RIGHT SIDE LOGO ORBIT */
+
+        .logo-orbit {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            animation: rotateOrbit 40s linear infinite;
+            background-color: red;
+        }
+
+        .logo-item {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 50%;
+            top: 50%;
+            transform-origin: -150px;
+            background: blue;
+            /* border-radius: 50%; */
+            padding: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo-item img {
+            width: 100%;
+            object-fit: contain;
+            filter: grayscale(100%);
+            transition: 0.3s ease;
+        }
+
+        .logo-item img:hover {
+            filter: grayscale(0%);
+        }
+
+        /* Evenly placed logos */
+        .logo-item:nth-child(1) {
+            transform: rotate(0deg) translateX(150px) rotate(0deg);
+        }
+
+        .logo-item:nth-child(2) {
+            transform: rotate(60deg) translateX(150px) rotate(-60deg);
+        }
+
+        .logo-item:nth-child(3) {
+            transform: rotate(120deg) translateX(150px) rotate(-120deg);
+        }
+
+        .logo-item:nth-child(4) {
+            transform: rotate(180deg) translateX(150px) rotate(-180deg);
+        }
+
+        .logo-item:nth-child(5) {
+            transform: rotate(240deg) translateX(150px) rotate(-240deg);
+        }
+
+        .logo-item:nth-child(6) {
+            transform: rotate(300deg) translateX(150px) rotate(-300deg);
+        }
+
+        @keyframes rotateOrbit {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* RESPONSIVE */
+        @media(max-width: 900px) {
+            .trusted-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .logo-orbit {
+                margin-top: 60px;
+                width: 300px;
+                height: 300px;
+            }
+
+            .logo-item {
+                width: 80px;
+                height: 80px;
+                transform-origin: -120px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #0d6efd;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- TRUSTED BY SECTION -->
+    <section class="trusted-section">
+
+        <!-- LEFT TEXT -->
+        <div class="trusted-text">
+            <h2>Trusted by Industry Leaders</h2>
+            <p>
+                We proudly collaborate with leading pharmaceutical organizations,
+                ensuring consistent quality, strict regulatory compliance,
+                and reliable chemical manufacturing across domestic and
+                international markets.
+            </p>
+
+            <div class="stats">
+                <span>35+ Years Experience</span>
+                <span>50+ Pharma Clients</span>
+                <span>99% Purity Standards</span>
+            </div>
+        </div>
+
+        <!-- RIGHT ROTATING LOGOS -->
+        <div class="logo-orbit">
+            <div class="logo-item"><img src="" alt=""></div>
+            <div class="logo-item"><img src="" alt=""></div>
+            <div class="logo-item"><img src="" alt=""></div>
+            <div class="logo-item"><img src="" alt=""></div>
+            <div class="logo-item"><img src="" alt=""></div>
+            <div class="logo-item"><img src="" alt=""></div>
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 Gulkas Pharma Pvt Ltd. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>

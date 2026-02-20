@@ -7,6 +7,7 @@ import AboutUsMain from "./components/About-usMain/About-usMain";
 import MainProductBody from "./components/Product-Section/MainProductBody";
 import MainPage from "./components/ViewProduct/MainPage";
 import ContactHeading from "./components/ContactSection/ContactHeading";
+import Main from "./components/PartnerWithUsPage/Main"
 
 export default function App() {
 
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/Products" element={<MainProductBody />} />
           <Route path="/viewProduct/:CASNo" element={<MainPage />} />
           <Route path="/Contact" element={<ContactHeading />} />
+          <Route path="/Partner" element={<Main />} />
         </Routes>
       </BrowserRouter >
     </>

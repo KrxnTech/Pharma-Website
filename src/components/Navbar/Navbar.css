@@ -8,8 +8,10 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: white;
-    border-bottom: 1px solid #E5E7EB;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .Logo-Container {
@@ -82,7 +84,7 @@
 }
 
 .More-Icon:hover {
-    color: #0E8F7A;
+    color: green;
 }
 
 
@@ -94,23 +96,29 @@
 
 @media (max-width: 768px) {
 
-    /* MANN KE CHAL YE FALSE HAIII */
     .Nav-Item-Link {
-        display: none;
         position: absolute;
         top: 64px;
         right: 16px;
-        background-color: white;
-        width: 200px;
+        width: 150px;
         border-radius: 8px;
-        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
-        z-index: 999;
         padding: 12px 0;
+        z-index: 999;
+        background-color: white;
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+
+        opacity: 0;
+        transform: translateY(-15px);
+        visibility: hidden;
+        transition:
+            opacity 0.3s ease,
+            transform 0.3s ease;
     }
 
-    /* JAB TRUE HUA TAB */
     .Nav-Item-Link.active {
-        display: block;
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
     }
 
     .Nav-Ul {
@@ -118,19 +126,12 @@
         gap: 10px;
     }
 
-    .Nav-Ul li {
-        text-align: center;
-    }
-
     .More-Icon {
         display: flex;
         align-items: center;
     }
-
-    .Nav-Container {
-        padding: 12px 16px;
-    }
 }
+
 
 @media (max-width: 480px) {
     .Nav-Right button {
