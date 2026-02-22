@@ -9,7 +9,7 @@ export default function GetInTouch() {
                     <div><i className="fa-solid fa-location-dot Icon"></i></div>
                     <div>
                         <p className="GetInTouchInnerInfoTitle">Address</p>
-                        <p className="RealInfoInnerPara">Plot No.914 Phase-2 GIDC Chhatral - 383739 Ta : Kalol Dist GandhiNagar</p>
+                        <p className="RealInfoInnerPara">Plot No.914 Phase-1 GIDC Chhatral - 382729 Ta : Kalol Dist GandhiNagar</p>
                     </div>
                 </div>
                 <div className="DivInner">
@@ -34,7 +34,7 @@ export default function GetInTouch() {
                     <div>
                         <p className="GetInTouchInnerInfoTitle">Business Hours</p>
                         <p className="RealInfoInnerPara">Tuesday - Sunday 9:00 AM - 6:00 PM</p>
-                        <p className="RealInfoInnerPara">Moday Closed</p>
+                        <p className="RealInfoInnerPara">Monday Closed</p>
                     </div>
                 </div>
             </div>

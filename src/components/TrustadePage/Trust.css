@@ -169,15 +169,10 @@
 
 .Trustbuildingtag {
     padding: 10px 20px;
-    border-radius: 20px;
-    border: 2px solid whitesmoke;
     background-color: transparent;
     transition: 0.3s all ease;
     text-align: center;
     display: inline-block;
-}
-
-.Trustbuildingtag:hover {
     background: green;
     color: white;
     transform: translateY(-4px);

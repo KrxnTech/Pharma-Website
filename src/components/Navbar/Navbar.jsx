@@ -31,7 +31,6 @@ export default function Navbar() {
                         <li id="HOME"><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/AboutUs">About</NavLink></li>
                         <li><NavLink to="/Products">Products</NavLink></li>
-                        <li><NavLink to="/Partner">Partner</NavLink></li>
                         <li><NavLink to="/Contact">Contact</NavLink ></li>
                     </ul>
                 </div>
@@ -43,7 +42,6 @@ export default function Navbar() {
                     <div className="More-Icon">
                         <i onClick={Click3Dot} className="fa-solid fa-ellipsis-vertical"></i>
                     </div>
-                    <DarkLight />
                 </div>
             </div>
         </nav>

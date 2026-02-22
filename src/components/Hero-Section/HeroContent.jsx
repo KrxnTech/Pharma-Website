@@ -6,7 +6,7 @@ export default function HeroContent() {
     const navigate = useNavigate()
 
     // Making WhatsApp Feature ✨
-    const PhoneNumber = "919898527683"
+    const PhoneNumber = "919016373731"
     const Msg = "Hello Sir I hope you are doing well. I recently came across your company's website and was impressed by your expertise in pharmaceutical ingredients and specialty chemical manufacturing. I would like to connect and discuss potential business opportunities. Looking forward to your response."
     const WhatsAppURL = `https://wa.me/${PhoneNumber}?text=${encodeURIComponent(Msg)}`
 
@@ -52,7 +52,7 @@ export default function HeroContent() {
                         </button>
                     </div>
                     <div>
-                        <button id="Contact-Us">Contact Us</button>
+                        <button onClick={() => navigate("/Contact")} id="Contact-Us">Contact Us</button>
                     </div>
                 </div>
 

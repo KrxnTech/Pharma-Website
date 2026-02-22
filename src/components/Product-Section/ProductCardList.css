@@ -247,6 +247,7 @@
 .product-btn:hover {
     background: #1e7f43;
     border-color: #1e7f43;
+    color: white;
 }
 
 @media (max-width: 480px) {

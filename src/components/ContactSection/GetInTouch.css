@@ -73,7 +73,8 @@
     max-width: 500px;
     padding: 25px;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
+    background-color: whitesmoke;
 }
 
 .GetTitle {
@@ -97,4 +98,9 @@
     gap: 15px;
     padding: 15px;
     font-size: 12px;
+}
+
+.FourBox .DivInner:hover {
+    background-color: green;
+    color: white;
 }

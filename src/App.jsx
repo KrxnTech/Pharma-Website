@@ -8,12 +8,15 @@ import MainProductBody from "./components/Product-Section/MainProductBody";
 import MainPage from "./components/ViewProduct/MainPage";
 import ContactHeading from "./components/ContactSection/ContactHeading";
 import Main from "./components/PartnerWithUsPage/Main"
+import ScrollToTop from "./components/ScrollTotop";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
 
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Hero />} />
@@ -21,9 +24,9 @@ export default function App() {
           <Route path="/Products" element={<MainProductBody />} />
           <Route path="/viewProduct/:CASNo" element={<MainPage />} />
           <Route path="/Contact" element={<ContactHeading />} />
-          <Route path="/Partner" element={<Main />} />
         </Routes>
       </BrowserRouter >
+      <Footer />
     </>
   );
 } 
