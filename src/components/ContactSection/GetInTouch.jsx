@@ -26,7 +26,7 @@ export default function GetInTouch() {
                     <div>
                         <p className="GetInTouchInnerInfoTitle">Phone</p>
                         <p className="RealInfoInnerPara">+91 98985 27683</p>
-                        <p className="RealInfoInnerPara">+91 90163 73731</p>
+                        <p className="RealInfoInnerPara">+91 91063 73731</p>
                     </div>
                 </div>
                 <div className="DivInner">
