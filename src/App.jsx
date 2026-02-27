@@ -12,21 +12,18 @@ import ScrollToTop from "./components/ScrollTotop";
 import Footer from "./components/Footer/Footer";
 
 export default function App() {
-
   return (
-    <>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/AboutUs" element={<AboutUsMain />} />
-          <Route path="/Products" element={<MainProductBody />} />
-          <Route path="/viewProduct/:CASNo" element={<MainPage />} />
-          <Route path="/Contact" element={<ContactHeading />} />
-        </Routes>
-      </BrowserRouter >
+    <BrowserRouter>
+      <ScrollToTop />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/AboutUs" element={<AboutUsMain />} />
+        <Route path="/Products" element={<MainProductBody />} />
+        <Route path="/viewProduct/:CASNo" element={<MainPage />} />
+        <Route path="/Contact" element={<ContactHeading />} />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 } 
